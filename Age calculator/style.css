@@ -53,17 +53,26 @@
     cursor: pointer;
     font-size: 13px;
 }
-           /* input::-webkit-calendar-picker-indicator */
-.input-box input::-webkit-calendar-picker-indicator{
+.input-box button:hover{
+    background-color: #d5d520;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
     top: 0;
     left: 0;
-    right: 0;
+    right: 10px;
     bottom: 0;
-    
     height: auto;
     width: auto;
     position: absolute;
-    background-position: calc(100% -10px);
-    background-size: 30px;
+    background-position: right;
+    background-size: 30px; /* Adjust the size as needed */
     cursor: pointer;
+}
+
+#result{
+    font-size: 20px;
+}
+#result span{
+    color: #f5f525;
 }
