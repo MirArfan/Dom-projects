@@ -53,3 +53,9 @@ form input.operator
 {
     color: #33ffd8;
 }
+form input.clearAll{
+    background-color: rgb(173, 68, 68);
+}
+form input.deleteOne{
+    background-color: rgb(142, 117, 8);
+}
