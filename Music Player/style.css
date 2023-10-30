@@ -55,6 +55,7 @@ nav .circle{
 .music-player p{
     font-size: 14px;
     color: #333;
+    margin-bottom: 20px;
 }
 #progress{
     -webkit-appearance: none;
